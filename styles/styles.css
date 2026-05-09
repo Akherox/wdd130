@@ -22,6 +22,7 @@ main img {
   height: auto;
   border: 1px solid black;
   box-shadow: 0 0 30px gray;
+  padding: 10px;
 }
 
 p {
@@ -34,6 +35,7 @@ aside {
   padding: 10px;
   background-color: #009739;
   color: #fff;
+  margin: 10px 0;
 }
 
 aside img {
