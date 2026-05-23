@@ -1,8 +1,8 @@
 :root {
   --primary-color: #0B3954;
-  --secondary-color: #087E8B;
+  /* --secondary-color: #087E8B; */
   --accent-primary: #FF5A36;
-  --accent-secondary: #BFD7EA;
+  /* --accent-secondary: #BFD7EA; */
   --heading-font: "Oswald", sans-serif;
   --body-font: "Open Sans", sans-serif;
   --text-color: #1F2933;
@@ -18,7 +18,7 @@
 body {
   font-family: var(--body-font);
   color: var(--text-color);
-  background-color: #FFF;
+  background-color: var(--light-bg);
 }
 
 header,
@@ -32,7 +32,6 @@ h1,
 h2 {
   font-family: var(--heading-font);
   color: var(--primary-color);
-  /* font-weight: 700; */
 }
 
 h1 {
@@ -54,17 +53,6 @@ article {
   padding: 8px;
 }
 
-article {
-  position: absolute;
-  left: 8px;
-  right: 8px;
-  bottom: 8px;
-
-  padding: 8px;
-  background-color: var(--primary-color);
-  color: #fff;
-}
-
 article p {
   margin: 0;
 }
@@ -81,6 +69,17 @@ article p {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.hero article {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+
+  padding: 8px;
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 .hero article img {
