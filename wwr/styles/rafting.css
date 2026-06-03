@@ -296,12 +296,6 @@ footer {
   height: 100%;
 }
 
-.contact-form {
-  background: var(--white);
-  padding: 1.5rem;
-  border-radius: 8px;
-}
-
 .form-group {
   display: flex;
   flex-direction: column;
