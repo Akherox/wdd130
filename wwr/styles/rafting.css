@@ -304,6 +304,23 @@ footer {
   border-radius: 6px;
 }
 
+.contact-form input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--primary-color);
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 1rem 0.5rem 1rem 0;
+}
+
+.contact-form input[type="checkbox"] + label {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 1.4;
+}
+
 .contact-form fieldset {
   border: 1px solid #ddd;
   padding: 1rem;
@@ -363,11 +380,8 @@ footer {
   margin: 0;
 }
 
-/* ============================================
-   HOME PAGE (index.html)
-   ============================================ */
+/* HOME PAGE */
 
-/* Hero: override h1 to sit lower on the image */
 .hero h1 {
   top: auto;
   bottom: 0;
@@ -376,7 +390,6 @@ footer {
   letter-spacing: 0.03em;
 }
 
-/* Newsletter Section */
 .newsletter-section {
   background-color: var(--primary-color);
   margin: 0;
@@ -460,7 +473,6 @@ footer {
   background-color: #28b0a4;
 }
 
-/* CTA Section */
 .cta-section {
   background-color: var(--light-bg);
   border-left: 5px solid var(--accent-primary);
@@ -511,7 +523,6 @@ footer {
   background-color: var(--accent-primary);
 }
 
-/* Offerings Grid Section */
 .offerings-section {
   margin: 0 0 2rem 0;
   padding: 2rem 0;
@@ -594,11 +605,8 @@ footer {
   color: var(--text-color);
 }
 
-/* ============================================
-   TRIPS PAGE (trips.html)
-   ============================================ */
+/* TRIPS PAGE */
 
-/* Page Banner */
 .page-banner {
   background-color: var(--primary-color);
   color: var(--white);
@@ -624,7 +632,6 @@ footer {
   padding: 0;
 }
 
-/* Trips CTA Bar */
 .trips-cta-bar {
   display: flex;
   align-items: center;
@@ -661,7 +668,6 @@ footer {
   background-color: var(--primary-color);
 }
 
-/* Trip Cards Section */
 .trips-section {
   padding: 1rem 0 2rem 0;
   margin: 0;
@@ -805,7 +811,6 @@ footer {
   background-color: var(--accent-primary);
 }
 
-/* Trips Table Section */
 .trips-table-section {
   padding: 1rem 0 2rem 0;
   margin: 0;
@@ -895,7 +900,6 @@ footer {
   background-color: #c53030;
 }
 
-/* Bottom CTA on Trips page */
 .trips-bottom-cta {
   background-color: var(--primary-color);
   color: var(--white);
@@ -925,4 +929,15 @@ footer {
 
 .trips-bottom-cta .btn-cta:hover {
   background-color: #28b0a4;
+}
+
+.contact-info,
+.employees {
+  margin: 0;
+  padding: 1.5rem 0 2rem;
+}
+
+.employees h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.25rem;
 }
